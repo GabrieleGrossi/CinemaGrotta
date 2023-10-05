@@ -1,13 +1,13 @@
 <template>
-    <div>
-        <h1>
-            Sono il main 
-        </h1>        
-    </div>
+    <Film/>
 </template>
 <script>
+import Film from './Film.vue';
 export default {
-    name: 'AppMain'
+    name: 'AppMain',
+    components:{
+        Film,
+    }
 }
 </script>
 <style lang="scss">

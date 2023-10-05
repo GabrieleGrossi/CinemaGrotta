@@ -3,17 +3,17 @@
         <div class="row">
             <div class="col-12">
                 <h1>
-                    Footer 
-                </h1>        
+                    Films
+                </h1>    
             </div>
         </div>
     </div>
 </template>
 <script>
 export default {
-    name: 'AppFooter'
+    name: 'Film'
 }
 </script>
-<style lang="scss">
+<style lang="">
     
 </style>
