@@ -23,7 +23,7 @@ img{
     height: 300px;
 }
 li{
-    list-style: none;
-    padding-right: 5px;
-    }
+    list-style-type: none;
+    padding-right: 25px;
+}
 </style>
