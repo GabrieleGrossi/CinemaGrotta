@@ -1,14 +1,14 @@
 <template>
-    <nav class="d-flex justify-content-around align-items-center">
+    <nav class="d-flex justify-content-around align-items-center mt-5">
         <img src="../../public/Cinema Grotta.png" alt="logo.png">
-        <ul class="d-flex">
-            <li>Home</li>
-            <li>Orari Spettacoli</li>
-            <li>Eventi</li>
-            <li>Prossimamente</li>
-            <li>Visita Guidata</li>
-            <li>Il Ristorante</li>
-            <li>Dove siamo</li>
+        <ul class="d-flex text-center">
+            <li class="mx-2">Home</li>
+            <li class="mx-2">Orari Spettacoli</li>
+            <li class="mx-2">Eventi</li>
+            <li class="mx-2">Prossimamente</li>
+            <li class="mx-2">Visita Guidata</li>
+            <li class="mx-2">Il Ristorante</li>
+            <li class="mx-2">Dove siamo</li>
         </ul>
     </nav>
 </template>
@@ -17,13 +17,17 @@ export default {
     name: 'AppHeader'
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 img{
     width: 300px;
     height: 300px;
+    border-radius: 50%;
 }
 li{
     list-style-type: none;
-    padding-right: 25px;
 }
+li:hover{
+    border-bottom: 1px solid white;
+}
+
 </style>
