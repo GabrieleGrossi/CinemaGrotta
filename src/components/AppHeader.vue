@@ -1,5 +1,5 @@
 <template>
-    <nav class="d-flex justify-content-around align-items-center mt-5">
+    <nav class="d-flex justify-content-around align-items-center m-5">
         <img src="../../public/Cinema Grotta.png" alt="logo.png">
         <ul class="d-flex text-center">
             <li class="mx-2">Home</li>
