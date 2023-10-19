@@ -81,6 +81,11 @@ img{
     height: 100%;
     object-fit: cover;
     padding: 1.5rem;
+    margin: 1rem;
+
+    &:hover{
+        transform: scale(1.05);
+    }
 }
 
 </style>
