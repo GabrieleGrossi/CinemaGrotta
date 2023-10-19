@@ -25,9 +25,10 @@ img{
 }
 li{
     list-style-type: none;
-}
-li:hover{
-    border-bottom: 1px solid white;
+    &:hover{
+        border-bottom: 1px solid white;
+        cursor: pointer;
+    }
 }
 
 </style>
