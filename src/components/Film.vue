@@ -82,9 +82,11 @@ img{
     object-fit: cover;
     padding: 1.5rem;
     margin: 1rem;
+    opacity: 0.5;
 
     &:hover{
-        transform: scale(1.05);
+        opacity: 1;
+        transition: 0.4 ease;
     }
 }
 
