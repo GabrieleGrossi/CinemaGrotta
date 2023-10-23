@@ -10,7 +10,7 @@
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvii9Wp-FojdpH9ZZVQaaHsA4dIbtvOCkXUwg8C5xepnwWYzbE" alt=""> 
                     <h3 class="mb-5">
                         Talk to me 
-                    </h3> 
+                    </h3>
                 </div>
                 <div class="col-4 text-center">
                     <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTYmtbdBgdbAmsTuyzdoO7gXuTovN_afKWI1spSPcq-i2lTz3h-" alt="">
@@ -78,15 +78,15 @@ export default {
 <style lang="scss" scoped>
 img{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     padding: 1.5rem;
     margin: 1rem;
-    opacity: 0.5;
+    opacity: 0.3;
+    border-radius: 35px;
 
     &:hover{
         opacity: 1;
-        transition: 0.4 ease;
+        transition:opacity .4s ease-in-out;
     }
 }
 
